@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "debug": false,
+        "targets": {
+          "browsers": [
+            "last 1 Chrome version"
+          ]
+        }
+      }
+    ],
+      "@babel/preset-react"
+  ],
+  "plugins": [
+    ["@babel/plugin-transform-runtime",
+      {
+        "regenerator": true
+      }
+    ]
+  ]
+}
